@@ -1,12 +1,12 @@
 {
-  "name": "rjsf-conditionals",
-  "description": "Extension of @rjsf/core with conditional field support",
+  "name": "@zonxpk/rjsf-conditionals",
+  "description": "Forked from ivarprudnikov/rjsf-conditionals for rjsf v.5",
   "private": false,
   "contributors": [
     "mavarazy <mavarazy@gmail.com>",
     "Aivaras Prudnikovas <ivar.prudnikov@gmail.com>"
   ],
-  "version": "1.4.0",
+  "version": "1.4.1",
   "scripts": {
     "build": "rimraf dist lib && npm run build:umd && npm run build:cjs && npm run build:es && npm run build:es:lib",
     "build:umd": "cross-env NODE_ENV=production BABEL_ENV=umd webpack --config webpack.config.dist.js",
