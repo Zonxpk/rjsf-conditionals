@@ -1,7 +1,7 @@
 import execute from "./actions";
 import deepcopy from "deepcopy";
-const { utils } = require("@rjsf/core");
-const { deepEquals } = utils;
+
+const { deepEquals } = require("@rjsf/utils");
 
 function doRunRules(engine, formData, schema, uiSchema, extraActions = {}) {
   let schemaCopy = deepcopy(schema);

@@ -7,8 +7,7 @@ import { DEFAULT_ACTIONS } from './actions';
 import validateAction from './actions/validateAction';
 import env from './env';
 
-const { utils } = require('@rjsf/core');
-const { deepEquals } = utils;
+const { deepEquals } = require("@rjsf/utils");
 
 /**
  * Intended to be used internally through applyRules(...)
